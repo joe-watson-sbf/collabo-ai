@@ -30,16 +30,12 @@ const RemoveBg = () => {
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
-
-
-
-
     }
 
     return (
         <div>
             <div className='text-right py-4'>
-                <h1 className='text-orange-300 text-3xl'>Remove Background Image</h1>
+                <h1 className='text-orange-300 text-3xl'>Upload An Image</h1>
                 <p className='text-slate-400 text-sm'>
                     Remove the background of any image 100% automatically
                 </p>
@@ -75,10 +71,10 @@ const RemoveBg = () => {
 
             {image && <div className='flex gap-4 my-4'>
 
-                <div>
-                    <button className='bg-blue-500 text-white px-4 py-2 rounded-sm' onClick={handleDownloadImage}>Download</button>
+                    <div>
+                        <button className='bg-blue-500 text-white px-4 py-2 rounded-sm' onClick={handleDownloadImage}>Download</button>
+                    </div>
                 </div>
-            </div>
             }
 
 
