@@ -4,6 +4,7 @@ import React from 'react';
 export const useApi = () => {
 
     const [formData, setFormData] = React.useState(null)
+    const [isLoading, setIsLoading] = React.useState(false)
 
     const init = async (inputPath ) => {
         const form = new FormData();
@@ -17,6 +18,7 @@ export const useApi = () => {
     }
 
     const removeBg = async () => {
+        setIsLoading(true)
         const response = await axios({
             method: 'post',
             url: 'https://api.remove.bg/v1.0/removebg',
@@ -29,6 +31,8 @@ export const useApi = () => {
             encoding: null
         })
 
+        setIsLoading(false)
+
         if(response.status === 200){
             return response.data
         };
@@ -40,7 +44,8 @@ export const useApi = () => {
     return {
         init,
         ready,
-        removeBg
+        removeBg,
+        isLoading
     }
 
 
