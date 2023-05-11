@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/collabo-ai/static/css/main.107c9e90.css",
-    "main.js": "/collabo-ai/static/js/main.7d4a7731.js",
+    "main.css": "/collabo-ai/static/css/main.aa21414f.css",
+    "main.js": "/collabo-ai/static/js/main.8b2902eb.js",
     "static/js/496.9cbcff4a.chunk.js": "/collabo-ai/static/js/496.9cbcff4a.chunk.js",
     "index.html": "/collabo-ai/index.html",
-    "main.107c9e90.css.map": "/collabo-ai/static/css/main.107c9e90.css.map",
-    "main.7d4a7731.js.map": "/collabo-ai/static/js/main.7d4a7731.js.map",
+    "main.aa21414f.css.map": "/collabo-ai/static/css/main.aa21414f.css.map",
+    "main.8b2902eb.js.map": "/collabo-ai/static/js/main.8b2902eb.js.map",
     "496.9cbcff4a.chunk.js.map": "/collabo-ai/static/js/496.9cbcff4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.107c9e90.css",
-    "static/js/main.7d4a7731.js"
+    "static/css/main.aa21414f.css",
+    "static/js/main.8b2902eb.js"
   ]
 }
